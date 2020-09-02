@@ -48,4 +48,3 @@ int main () {
     printf("Resultado: %lf\n", bisect_method(equation3, -2, -1, 0.001));
     printf("--\n");
 }
-
