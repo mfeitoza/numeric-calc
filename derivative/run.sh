@@ -1,0 +1,1 @@
+gcc derivative.c -lm -o derivative && ./derivative
