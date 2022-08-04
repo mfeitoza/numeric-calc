@@ -1,1 +1,0 @@
-gcc bisect_method.c -lm -o bisect_method && ./bisect_method
