@@ -1,0 +1,1 @@
+gcc secant.c -lm -o secant.o && ./secant.o
