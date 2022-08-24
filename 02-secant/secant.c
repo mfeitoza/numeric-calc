@@ -24,7 +24,7 @@ double secant_method (double (*fn) (double), double a, double b, double epsilon)
     c = b - (b - a) * fb / (fb-fa);
     fc = fn(c);
 
-    printf("I: %d | a: %lf | fa: %lf | b: %lf | fb: %lf | c: %lf | fc: %lf |\n", i, a, fa, b, fb, c, fc);
+    printf("I: %-3d | a: %-10lf | fa: %-10lf | b: %-10lf | fb: %-10lf | c: %-10lf | fc: %-10lf |\n", i, a, fa, b, fb, c, fc);
 
     a = b;
     b = c;
